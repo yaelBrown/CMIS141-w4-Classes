@@ -10,3 +10,8 @@ package com.cmis141.w4.hw2;
 /**
  * Guitar Test
  */
+public class testGuitar {
+    public static void main(String[] args) {
+        
+    }
+}

@@ -11,7 +11,8 @@ package com.cmis141.w4.hw2;
 /**
  * Guitar Class
  */
-public class Guitar {
+public class Guitar 
+{
     // Declare variables to hold values.
     private int numStrings; // Defines number of strings
     private double guitarLength; // Defines length of Guitar
@@ -43,50 +44,60 @@ public class Guitar {
     
     
     // Setter methods for all data fields
-    public void setStrings(int strings){
+    public void setStrings(int strings)
+    {
         numStrings = strings;
     }
     
-    public void setLength(double length){
+    public void setLength(double length)
+    {
         guitarLength = length;
     }
     
-    public void setManufacturer(String manufacturer){
+    public void setManufacturer(String manufacturer)
+    {
         guitarManufacturer = manufacturer;
     }
-    public void setColor(String color){
+    public void setColor(String color)
+    {
         guitarColor = color;
     }
     
 
     // Getter methods for all data fields
-    public int getStrings() {
+    public int getStrings() 
+    {
         return numStrings;
     }
     
-    public double getLength() {
+    public double getLength() 
+    {
         return guitarLength;
     }
     
-    public String getManufacturer() {
+    public String getManufacturer() 
+    {
         return guitarManufacturer;
     }
     
-    public String getColor() {
+    public String getColor() 
+    {
         return guitarColor;
     }
     
     // playGuitar method 
-    public String playGuitar() {
-    	
+    public String playGuitar() 
+    {
+        
     }
     
     // toString method
-    public String toString() {
-    	String str = "( Number of Strings: " + numStrings + 
-    				". Length of guitar: " + guitarLength +
-    				". Manufacturer of guitar: " + guitarManufacturer +
-    				". Color of guitar: " + guitarColor ")";
-    	return str;
+    public String toString() 
+    {
+        String str = "Number of Strings: " + numStrings + 
+                    ". Length of guitar: " + guitarLength +
+                    ". Manufacturer of guitar: " + guitarManufacturer +
+                    ". Color of guitar: " + guitarColor;
+        return str;
     }
 }
