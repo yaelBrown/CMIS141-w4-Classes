@@ -13,18 +13,16 @@ public class playGuitar
         Random r = new Random();
         Random ra = new Random();
 
-        // Declare int's for notes
-        int pick;
-
         // Declare default values
         letter = null;
+        noteLength = null;
 
         // Generate random number
-		value = r.nextInt(7 - 1 + 1) + 1;
-	   	value2 = r.nextInt(5 - 1 + 1) + 1;
+        value = r.nextInt(7 - 1 + 1) + 1;
+        value2 = r.nextInt(5 - 1 + 1) + 1;
 
         // Test the value of 'value'
-        System.out.println("Value of value is :" + value);
+        System.out.println("Value of value is = " + value);
 
         // Switch statement to convert to letter
         switch (value) {
@@ -40,7 +38,7 @@ public class playGuitar
                     break;
         case 6:     letter = "F";
                     break;
-        case 7:      letter = "G";
+        case 7:     letter = "G";
                     break;
         default:    letter = null;
                     break;
@@ -71,9 +69,9 @@ public class playGuitar
 
         // Generate
         for (int i = 0; i < 16; i++) {
-        	System.out.print(letter + "(" + noteLength +") ");
-        	value = new Random(16).nextInt(7 - 1 + 1) + 1;
-	   		value2 = new Random(16).nextInt(5 - 1 + 1) + 1;
+            System.out.print(letter + "(" + noteLength +") ");
+            value = new Random(16).nextInt(7 - 1 + 1) + 1;
+            value2 = new Random(16).nextInt(5 - 1 + 1) + 1;
         }
 
         // Ending output playGuitar into array
