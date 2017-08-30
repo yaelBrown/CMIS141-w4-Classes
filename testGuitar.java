@@ -12,17 +12,17 @@ public class testGuitar {
 	public static void main(String[] args) {
 
 		// Construct new guitar
-		Guitar test = new Guitar(6, 25.3, Fender, Green);
+		Guitar test = new Guitar(6, 25.3, "Fender", "Green");
 
         // Construct default guitar
         Guitar test2 = new Guitar();
 
 		// Print required output
-        System.out.println("toString(): (" + toString + " )");
+        System.out.println("toString(): (" + test.toString() + " )");
         System.out.println("getNumStrings(): ");
-        Guitar.getStrings();
+        test.getStrings();
         System.out.println("getGuitarManufacturer(): ");
-        Guitar.getManufacturer();
+        test.getManufacturer();
         System.out.println("var");
         System.out.println("var");
         System.out.println("var");
