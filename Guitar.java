@@ -22,48 +22,46 @@ public class Guitar
         private String guitarManufacturer; // Defines manufacturer of Guitar
         private String guitarColor; // Defines color of guitar
         
+        // Constructor for Guitar
+        public Guitar(
+                int strings, 
+                double length,
+                String manufacturer,
+                String color)
+        {
+            strings = numStrings;
+            length = guitarLength;
+            manufacturer = guitarManufacturer;
+            color = guitarColor;
+        }
+
         // Default constructor with default values
-        public class guitar
+        public Guitar()
         {
             int numStrings = 6;
             double guitarLength = 28.2;
             String guitarManufacturer = "Gibson";
             String guitarColor = "Red";
         }
-        
-        
-        // Constructor for Guitar (look up how to make constructors)
-        public void newGuitar(
-                int numStrings, 
-                double guitarLength,
-                String guitarManufacturer,
-                String guitarColor)
-        {
-            int strings = numStrings;
-            double length = guitarLength;
-            String manufacturer = guitarManufacturer;
-            String color = guitarColor;
-        }
-        
-        
+
         // Setter methods for all data fields
         public void setStrings(int strings)
         {
-            numStrings = strings;
+            strings = numStrings;
         }
         
         public void setLength(double length)
         {
-            guitarLength = length;
+            length = guitarLength;
         }
         
         public void setManufacturer(String manufacturer)
         {
-            guitarManufacturer = manufacturer;
+            manufacturer = guitarManufacturer;
         }
         public void setColor(String color)
         {
-            guitarColor = color;
+            color = guitarColor;
         }
         
 

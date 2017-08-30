@@ -10,6 +10,21 @@
  */
 public class testGuitar {
 	public static void main(String[] args) {
-        System.out.println("hi");
+
+		// Construct new guitar
+		Guitar test = new Guitar(6, 25.3, Fender, Green);
+
+        // Construct default guitar
+        Guitar test2 = new Guitar();
+
+		// Print required output
+        System.out.println("toString(): (" + toString + " )");
+        System.out.println("getNumStrings(): ");
+        Guitar.getStrings();
+        System.out.println("getGuitarManufacturer(): ");
+        Guitar.getManufacturer();
+        System.out.println("var");
+        System.out.println("var");
+        System.out.println("var");
     }
 }
