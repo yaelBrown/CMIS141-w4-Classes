@@ -12,19 +12,16 @@ public class testGuitar {
 	public static void main(String[] args) {
 
 		// Construct new guitar
-		Guitar test = new Guitar(6, 25.3, "Fender", "Green");
+		Guitar g1 = new Guitar(6, 25.3, "Fender", "Green");
 
         // Construct default guitar
-        Guitar test2 = new Guitar();
+        Guitar g2 = new Guitar();
 
 		// Print required output
-        System.out.println("toString(): (" + test.toString() + " )");
-        System.out.println("getNumStrings(): ");
-        test.getStrings();
-        System.out.println("getGuitarManufacturer(): ");
-        test.getManufacturer();
-        System.out.println("var");
-        System.out.println("var");
-        System.out.println("var");
+        System.out.println("toString(): (" + g1.toString() + " )");
+        System.out.println("getNumStrings(): " + g1.getStrings());
+        System.out.println("getGuitarManufacturer(): " + g1.getManufacturer());
+        System.out.println("getGuitarColor(): " + g1.getColor());
+        // System.out.println("playGuitar():  [" + g1.playGuitar() + "]");
     }
 }

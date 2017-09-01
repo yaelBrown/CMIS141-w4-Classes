@@ -14,8 +14,6 @@ import java.util.Random;
  */
 public class Guitar 
 {
-    //public static void main(String[] args)
-    //{
         // Declare variables to hold values.
         private int numStrings; // Defines number of strings
         private double guitarLength; // Defines length of Guitar
@@ -27,17 +25,15 @@ public class Guitar
                 int strings, 
                 double length,
                 String manufacturer,
-                String color)
-        {
-            strings = numStrings;
-            length = guitarLength;
-            manufacturer = guitarManufacturer;
-            color = guitarColor;
+                String color) {
+            numStrings = strings;
+            guitarLength = length;
+            guitarManufacturer = manufacturer;
+            guitarColor = color;
         }
 
         // Default constructor with default values
-        public Guitar()
-        {
+        public Guitar() {
             int numStrings = 6;
             double guitarLength = 28.2;
             String guitarManufacturer = "Gibson";
@@ -45,48 +41,42 @@ public class Guitar
         }
 
         // Setter methods for all data fields
-        public void setStrings(int strings)
-        {
+        public void setStrings(int strings) {
             strings = numStrings;
         }
         
-        public void setLength(double length)
-        {
+        public void setLength(double length) {
             length = guitarLength;
         }
         
-        public void setManufacturer(String manufacturer)
-        {
+        public void setManufacturer(String manufacturer) {
             manufacturer = guitarManufacturer;
         }
-        public void setColor(String color)
-        {
+
+        public void setColor(String color) {
             color = guitarColor;
         }
         
 
         // Getter methods for all data fields
-        public int getStrings() 
-        {
+        public int getStrings() {
             return numStrings;
         }
         
-        public double getLength() 
-        {
+        public double getLength() {
             return guitarLength;
         }
         
-        public String getManufacturer() 
-        {
+        public String getManufacturer() {
             return guitarManufacturer;
         }
         
-        public String getColor() 
-        {
+        public String getColor() {
             return guitarColor;
         }
         
         // playGuitar method 
+        /*
         public String playGuitar() 
         {
             // Declare variables
@@ -162,15 +152,14 @@ public class Guitar
 
             return playGuitar();
         }
+        */
 
         // toString method
-        public String toString() 
-        {
+        public String toString() {
             String str = "Number of Strings: " + numStrings + 
                         ". Length of guitar: " + guitarLength +
                         ". Manufacturer of guitar: " + guitarManufacturer +
                         ". Color of guitar: " + guitarColor;
             return str;
-        //}
-    }
+        }
 }
