@@ -56,6 +56,6 @@ public class playGuitar {
             System.out.print(letter + "(" + noteLength +") ");
         }
         // Ending output playGuitar into array
-        System.out.println("}");
+        System.out.println(" }");
     }
 }

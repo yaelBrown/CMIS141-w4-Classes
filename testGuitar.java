@@ -22,6 +22,6 @@ public class testGuitar {
         System.out.println("getNumStrings(): " + g1.getStrings());
         System.out.println("getGuitarManufacturer(): " + g1.getManufacturer());
         System.out.println("getGuitarColor(): " + g1.getColor());
-        // System.out.println("playGuitar():  [" + g1.playGuitar() + "]");
+        playGuitar.main(null);
     }
 }
