@@ -5,6 +5,7 @@
  * Purpose: Create a Java program that creates a class and tests
  * getters and setters for that constructed class.
  */
+
 // Import required java libraries
 import java.util.*;
 import java.util.Random;

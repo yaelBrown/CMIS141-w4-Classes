@@ -1,6 +1,18 @@
+/*
+ * File: Guitar.java
+ * Author: Yael Brown
+ * Date: August 24, 2017
+ * Purpose: Create a Java program that creates a class and tests
+ * getters and setters for that constructed class.
+ */
+
+// Import required java classes
 import java.util.*;
 import java.util.Random;
 
+/**
+ * playGuitar Class
+ */
 public class playGuitar {
     public static void main( String[] args ) {
         // Declare variables
